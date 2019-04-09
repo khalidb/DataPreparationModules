@@ -1,4 +1,4 @@
-# Data preparation modules described using example #
+# Data preparation modules described using examples #
 
 This repository contains data examples describing data preparation modules, which can be found in the folder data example.
 A data example specify the name of the module, its provider, URI as well as the input and output. 
