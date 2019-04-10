@@ -1,0 +1,10 @@
+<module>
+<provider name = "Kegg"/>
+<name>mapTaxonomy</name> 
+<URI>https://www.genome.jp/kegg/tool</URI>
+<Input name = "ID" semantics = "OrganismAccession">ath</Input>
+<Output name = "result" semantics = "OrganismLabel"> 
+Arabidopsis thaliana (thale cress)
+</Output>
+
+ 

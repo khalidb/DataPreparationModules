@@ -1,0 +1,10 @@
+<module>
+<provider name = "QuickGO"/>
+<name>Protein2GO</name> 
+<URI>https://www.ebi.ac.uk/QuickGO</URI>
+<Input name = "accession" semantics = "ProteinAccession"> P17110 </Input>
+<Output name = "result" semantics = "GOTerm"> 
+GO:0005576
+</Output>
+
+ 

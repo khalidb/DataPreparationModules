@@ -1,0 +1,74 @@
+<module>
+<provider name = "emboss"/>
+<name>cutseq</name> 
+<URI>http://emboss.open-bio.org/rel/rel6/apps/cutseq.html</URI>
+<Input name = "seq" semantics = "BiologicalEntry">
+ID   CH36_CERCA              Reviewed;         320 AA.
+AC   P17110;
+DT   01-AUG-1990, integrated into UniProtKB/Swiss-Prot.
+DT   01-AUG-1990, sequence version 1.
+DT   16-JAN-2019, entry version 55.
+DE   RecName: Full=Chorion protein S36;
+DE   Flags: Precursor;
+GN   Name=Cp36; Synonyms=S36;
+OS   Ceratitis capitata (Mediterranean fruit fly) (Tephritis capitata).
+OC   Eukaryota; Metazoa; Ecdysozoa; Arthropoda; Hexapoda; Insecta;
+OC   Pterygota; Neoptera; Holometabola; Diptera; Brachycera; Muscomorpha;
+OC   Tephritoidea; Tephritidae; Ceratitis; Ceratitis.
+OX   NCBI_TaxID=7213;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA].
+RX   PubMed=1692403; DOI=10.1093/nar/18.7.1731;
+RA   Konsolaki M., Komitopoulou K., Tolias P.P., King D.L., Swimmer C.,
+RA   Kafatos F.C.;
+RT   "The chorion genes of the medfly, Ceratitis capitata, I: structural
+RT   and regulatory conservation of the s36 gene relative to two Drosophila
+RT   species.";
+RL   Nucleic Acids Res. 18:1731-1737(1990).
+CC   -!- FUNCTION: Chorion membrane (egg shell) protein; plays a role in
+CC       protecting the egg from the environment. {ECO:0000250}.
+CC   -!- SUBCELLULAR LOCATION: Secreted {ECO:0000305}.
+CC   -!- DOMAIN: The tetrapeptide (A-A-P-[AV]) repeats found throughout the
+CC       protein are also present in many proteins constituting the
+CC       protective envelope of other species.
+CC   -!- SIMILARITY: Belongs to the chorion protein S36 family.
+CC       {ECO:0000305}.
+DR   EMBL; X51342; CAA35723.1; -; Genomic_DNA.
+DR   PIR; S09208; S09208.
+DR   RefSeq; XP_004527436.1; XM_004527379.1.
+DR   GeneID; 101461913; -.
+DR   OrthoDB; 1414665at2759; -.
+DR   GO; GO:0005576; C:extracellular region; IEA:UniProtKB-SubCell.
+DR   InterPro; IPR008449; Chorion_S36/S28.
+DR   Pfam; PF05387; Chorion_3; 1.
+PE   3: Inferred from homology;
+KW   Repeat; Secreted; Signal.
+FT   SIGNAL        1     18       {ECO:0000255}.
+FT   CHAIN        19    320       Chorion protein S36.
+FT                                /FTId=PRO_0000089628.
+FT   REPEAT      178    181       1.
+FT   REPEAT      258    261       2.
+FT   REPEAT      266    269       3.
+FT   REPEAT      274    277       4.
+FT   REPEAT      290    290       5.
+SQ   SEQUENCE   320 AA;  32319 MW;  ECF9B72FFBE54C61 CRC64;
+     MNCFLFTLFF VAAPLATASY GSSSGGGGGG SSYLSSASSN GLDELVQAAA GGAQQAGGTI
+     TPANAEIPVS PAEVARLNQV QAQLQALNSN PVYRNLKNSD AIAESLAESS LASKIRQGNI
+     NIVAPNVIDQ GVYRSLLVPS GQNNHQVIAT QPLPPIIVNQ PALPPTQIGG GPAAVVKAAP
+     VIYKIKPSVI YQQEVINKVP TPLSLNPVYV KVYKPGKKID APLVPGVQQN YQAPSYGGSS
+     YSAPAASYEP APAPSYSAAP AQSYNAAPAP SYSAAPAASY GAAPSASYDA APAASYGAES
+     SYGSPQSSSS YGSAPPASGY
+//
+
+</Input>
+<Output name = "result" semantics = "BiologicalSequence"> 
+>sp|P17110|CH36_CERCA Chorion protein S36 OS=Ceratitis capitata OX=7213 GN=Cp36 PE=3 SV=1
+MNCFLFTLFFVAAPLATASYGSSSGGGGGGSSYLSSASSNGLDELVQAAAGGAQQAGGTI
+TPANAEIPVSPAEVARLNQVQAQLQALNSNPVYRNLKNSDAIAESLAESSLASKIRQGNI
+NIVAPNVIDQGVYRSLLVPSGQNNHQVIATQPLPPIIVNQPALPPTQIGGGPAAVVKAAP
+VIYKIKPSVIYQQEVINKVPTPLSLNPVYVKVYKPGKKIDAPLVPGVQQNYQAPSYGGSS
+YSAPAASYEPAPAPSYSAAPAQSYNAAPAPSYSAAPAASYGAAPSASYDAAPAASYGAES
+SYGSPQSSSSYGSAPPASGY
+</Output>
+
+ 

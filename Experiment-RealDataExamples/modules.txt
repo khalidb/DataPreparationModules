@@ -1,0 +1,31 @@
+<module>
+<provider name = "DDBJ"/>
+<name>GetEntry</name> 
+<URI>http://getentry.ddbj.nig.ac.jp</URI>
+<Input name = "accession" semantics = "ProteinAccession"> P17110 </Input>
+<Input name = "accession" semantics = "DNAAccession"> P17110 </Input>
+<Output name = "result" semantics = "BiologicalSequence"></Output>
+Inputs used:
+Protein: P17110 (config Uniprot)
+DNA: U49845 (Config: Genebank)
+
+
+FASTA online toolbox (biotools:fabox) Article has an altmetric score of 3
+312312 total citations on Dimensions.OpenEBench
+http://users-birc.au.dk/palle/php/fabox/
+
+
+Module:Fasta header extractor (and header splitter)
+Input: 
+>P17110|RecName: Full=Chorion protein S36;
+MNCFLFTLFFVAAPLATASYGSSSGGGGGGSSYLSSASSNGLDELVQAAAGGAQQAGGTI
+TPANAEIPVSPAEVARLNQVQAQLQALNSNPVYRNLKNSDAIAESLAESSLASKIRQGNI
+NIVAPNVIDQGVYRSLLVPSGQNNHQVIATQPLPPIIVNQPALPPTQIGGGPAAVVKAAP
+VIYKIKPSVIYQQEVINKVPTPLSLNPVYVKVYKPGKKIDAPLVPGVQQNYQAPSYGGSS
+YSAPAASYEPAPAPSYSAAPAQSYNAAPAPSYSAAPAASYGAAPSASYDAAPAASYGAES
+SYGSPQSSSSYGSAPPASGY
+Output:
+Original headers	Header fields split by '|'
+P17110|RecName: Full=Chorion protein S36;	P17110	RecName: Full=Chorion protein S36;
+
+ 

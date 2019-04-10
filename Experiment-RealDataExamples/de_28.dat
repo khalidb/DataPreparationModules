@@ -1,0 +1,105 @@
+<module>
+<provider name = "Kegg"/>
+<name>reconstructPathway</name> 
+<URI>https://www.genome.jp/kegg/tool</URI>
+<Input name = "ID" semantics = "GeneID">
+# organism1
+gene1	K02874
+gene4	K00416
+gene7	K12864
+gene10	K03695
+gene11	K11836
+gene15	K02932
+gene19	K00008
+gene23	K01710
+gene32	K01714
+gene39	K02880
+gene41	K02372
+gene43	K14491
+gene50	K05391
+gene53	K09500
+gene55	K11129
+gene56	K08857
+gene60	K14484
+gene61	K01626
+gene62	K02929
+gene64	K09458
+gene66	K14191
+gene69	K14004
+gene73	K03007
+gene74	K07342
+gene77	K11099
+gene80	K11507
+gene85	K14457
+gene89	K01373
+gene90	K02900
+gene95	K01689
+gene97	K06174
+gene98	K01051
+gene99	K02915
+gene100	K11251
+ </Input>
+<Output name = "result" semantics = "BiologicalPathway"> 
+Pathway Reconstruction Result
+Show all objects
+Metabolism
+Global and overview maps
+01100 Metabolic pathways (8)
+01110 Biosynthesis of secondary metabolites (3)
+01120 Microbial metabolism in diverse environments (2)
+01130 Biosynthesis of antibiotics (4)
+01200 Carbon metabolism (1)
+01212 Fatty acid metabolism (2)
+01230 Biosynthesis of amino acids (3) Carbohydrate metabolism
+00010 Glycolysis / Gluconeogenesis (1)
+00040 Pentose and glucuronate interconversions (2)
+00051 Fructose and mannose metabolism (1) Energy metabolism
+00190 Oxidative phosphorylation (1)
+00680 Methane metabolism (1) Lipid metabolism
+00061 Fatty acid biosynthesis (2)
+00561 Glycerolipid metabolism (1) Amino acid metabolism
+00300 Lysine biosynthesis (1)
+00400 Phenylalanine, tyrosine and tryptophan biosynthesis (1) Metabolism of cofactors and vitamins
+00780 Biotin metabolism (2) Metabolism of terpenoids and polyketides
+00523 Polyketide sugar unit biosynthesis (1)
+01055 Biosynthesis of vancomycin group antibiotics (1) Biosynthesis of other secondary metabolites
+00261 Monobactam biosynthesis (1)
+00521 Streptomycin biosynthesis (1)
+00525 Acarbose and validamycin biosynthesis (1) Genetic Information Processing
+Transcription
+03020 RNA polymerase (1)
+03040 Spliceosome (2) Translation
+03010 Ribosome (6)
+03013 RNA transport (1)
+03008 Ribosome biogenesis in eukaryotes (1) Folding, sorting and degradation
+03060 Protein export (1)
+04141 Protein processing in endoplasmic reticulum (2)
+03018 RNA degradation (1) Environmental Information Processing
+Signal transduction
+04066 HIF-1 signaling pathway (1)
+04150 mTOR signaling pathway (1)
+04075 Plant hormone signal transduction (2) Cellular Processes
+Transport and catabolism
+04145 Phagosome (1)
+04142 Lysosome (1) Cell growth and death
+04210 Apoptosis (1)
+04217 Necroptosis (1) Cellular community - prokaryotes
+02024 Quorum sensing (1) Organismal Systems
+Immune system
+04623 Cytosolic DNA-sensing pathway (1) Circulatory system
+04260 Cardiac muscle contraction (1) Digestive system
+04975 Fat digestion and absorption (1) Aging
+04213 Longevity regulating pathway - multiple species (1) Environmental adaptation
+04714 Thermogenesis (1)
+04626 Plant-pathogen interaction (1) Human Diseases
+Immune diseases
+05322 Systemic lupus erythematosus (1) Neurodegenerative diseases
+05010 Alzheimer disease (1)
+05012 Parkinson disease (1)
+05016 Huntington disease (2) Substance dependence
+05034 Alcoholism (1) Endocrine and metabolic diseases
+04932 Non-alcoholic fatty liver disease (NAFLD) (1) Infectious diseases: Bacterial
+05110 Vibrio cholerae infection (1)
+</Output>
+
+ 

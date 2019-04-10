@@ -1,0 +1,83 @@
+<module>
+<provider name = "Kegg"/>
+<name>SearchPathway</name> 
+<URI>http://getentry.ddbj.nig.ac.jp</URI>
+<Input name = "map" semantics = "PathwayAccession"> map00010 </Input>
+<Output name = "result" semantics = "BiologicalPathway"> 
+Entry	
+map00010                    Pathway                                
+
+Name	
+Glycolysis / Gluconeogenesis
+Description	
+Glycolysis is the process of converting glucose into pyruvate and generating small amounts of ATP (energy) and NADH (reducing power). It is a central pathway that produces important precursor metabolites: six-carbon compounds of glucose-6P and fructose-6P and three-carbon compounds of glycerone-P, glyceraldehyde-3P, glycerate-3P, phosphoenolpyruvate, and pyruvate [MD:M00001]. Acetyl-CoA, another important precursor metabolite, is produced by oxidative decarboxylation of pyruvate [MD:M00307]. When the enzyme genes of this pathway are examined in completely sequenced genomes, the reaction steps of three-carbon compounds from glycerone-P to pyruvate form a conserved core module [MD:M00002], which is found in almost all organisms and which sometimes contains operon structures in bacterial genomes. Gluconeogenesis is a synthesis pathway of glucose from noncarbohydrate precursors. It is essentially a reversal of glycolysis with minor variations of alternative paths [MD:M00003].
+Class	
+Metabolism; Carbohydrate metabolism
+BRITE hierarchy
+Pathway map	
+map00010  	Glycolysis / Gluconeogenesis
+map00010
+
+Ortholog table
+Module	
+M00001  	Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate [PATH:map00010]
+M00002  	Glycolysis, core module involving three-carbon compounds [PATH:map00010]
+M00003  	Gluconeogenesis, oxaloacetate => fructose-6P [PATH:map00010]
+M00114  	Ascorbate biosynthesis, plants, glucose-6P => ascorbate [PATH:map00010]
+M00265  	PTS system, glucose-specific II component [PATH:map00010]
+M00266  	PTS system, maltose/glucose-specific II component [PATH:map00010]
+M00272  	PTS system, beta-glucoside (arbutin/salicin/cellobiose)-specific II component [PATH:map00010]
+M00307  	Pyruvate oxidation, pyruvate => acetyl-CoA [PATH:map00010]
+M00809  	PTS system, glucose-specific II component [PATH:map00010]
+Disease	
+H00069  	Glycogen storage disease
+H00071  	Hereditary fructose intolerance
+H00072  	Pyruvate dehydrogenase complex deficiency
+H00114  	Fructose-1,6-bisphosphatase deficiency
+H00664  	Anemia due to disorders of glycolytic enzymes
+H01071  	Acute alcohol sensitivity
+H01096  	Pyruvate kinase deficiency
+H01267  	Familial hyperinsulinemic hypoglycemia
+H01760  	Hepatic glycogen storage disease
+H01762  	Muscle glycogen storage disease
+H01939  	Glycogen storage disease type I
+H01945  	Glycogen storage disease type VII
+H01946  	Glycogen storage disease type XI
+H01951  	Glycogen storage disease type X
+H01952  	Glycogen storage disease type XII
+H01953  	Glycogen storage disease type XIII
+H01954  	Glycogen storage disease type XIV
+H01997  	Pyruvate dehydrogenase E1-alpha deficiency
+H01998  	Pyruvate dehydrogenase E1-beta deficiency
+H01999  	Pyruvate dehydrogenase E2 deficiency
+H02000  	Dihydrolipoamide dehydrogenase deficiency
+Other DBs	
+GO: 	0006096 0006094
+Reference	
+(map 1)
+  Authors	
+Nishizuka Y (ed).
+  Title	
+[Metabolic Maps] (In Japanese)
+  Journal	
+Tokyo Kagaku Dojin (1980)
+Reference	
+(map 1)
+  Authors	
+Nishizuka Y, Seyama Y, Ikai A, Ishimura Y, Kawaguchi A (eds).
+  Title	
+[Cellular Functions and Metabolic Maps] (In Japanese)
+  Journal	
+Tokyo Kagaku Dojin (1997)
+Reference	
+  Authors	
+Michal G.
+  Title	
+Biochemical Pathways
+  Journal	
+Wiley (1999)
+KO pathway	
+ko00010  	 
+</Output>
+
+ 

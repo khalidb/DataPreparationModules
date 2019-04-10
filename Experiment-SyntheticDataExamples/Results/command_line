@@ -1,0 +1,1 @@
+/Library/PostgreSQL/8.4/bin/psql -Upostgres -F\; -A --pset footer -f precision_i.sql -o precision_d1_i.csv DataExamples 

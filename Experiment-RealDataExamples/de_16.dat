@@ -1,0 +1,64 @@
+<module>
+<provider name = "EBI"/>
+<name>Search ChEBI</name> 
+<URI>https://www.ebi.ac.uk/chebi/</URI>
+<Input name = "accession" semantics = "ChEBIAccession"> CHEBI:27732 </Input>
+<Output name = "result" semantics = "ChEBIEntry"> 
+Formula	C8H10N4O2
+Net Charge	0
+Average Mass	194.19076
+Monoisotopic Mass	194.08038
+InChI	InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3
+InChIKey	RYYVLZVUVIJVGH-UHFFFAOYSA-N
+SMILES	Cn1cnc2n(C)c(=O)n(C)c(=O)c12
+Metabolite of Species  	Details
+Mus musculus (NCBI:txid10090)	Source: BioModels - MODEL1507180067 See: PubMed
+Theobroma cacao (NCBI:txid3641)	See: DOI
+Camellia sinensis (NCBI:txid4442)	See: PubMed
+Claviceps sorghicola (NCBI:txid83213)	See: DOI
+Homo sapiens (NCBI:txid9606)	Found in blood serum (BTO:0000133). See: MetaboLights Study
+Roles Classification  
+Chemical Role(s):	environmental contaminant
+Any minor or unwanted substance introduced into the environment that can have undesired effects.
+Biological Role(s):	EC 3.1.4.* (phosphoric diester hydrolase) inhibitor
+An EC 3.1.* (ester hydrolase) inhibitor that interferes with the action of a phosphoric diester hydrolase (EC 3.1.4.*).
+mouse metabolite
+Any mammalian metabolite produced during a metabolic reaction in a mouse (Mus musculus).
+EC 2.7.11.1 (non-specific serine/threonine protein kinase) inhibitor
+An EC 2.7.11.* (protein-serine/threonine kinase) inhibitor that interferes with the action of non-specific serine/threonine protein kinase (EC 2.7.11.1), a kinase enzyme involved in phosphorylation of hydroxy group of serine or threonine.
+ryanodine receptor agonist
+A ryanodine receptor modulator which activates the receptor. Ryanodine receptors (RyRs) act as selective ion channels, modulating the release of calcium. Activating the receptors causes the release of calcium, so depleting internal calcium and ultimately preventing further muscle contraction.
+fungal metabolite
+Any eukaryotic metabolite produced during a metabolic reaction in fungi, the kingdom that includes microorganisms such as the yeasts and moulds.
+adenosine A2A receptor antagonist
+An antagonist at the A2A receptor.
+food additive
+Any substance which is added to food to preserve or enhance its flavour and/or appearance.
+adenosine receptor antagonist
+An antagonist at any adenosine receptor.
+plant metabolite
+Any eukaryotic metabolite produced during a metabolic reaction in plants, the kingdom that include flowering plants, conifers and other gymnosperms.
+human blood serum metabolite
+Any metabolite (endogenous or exogenous) found in human blood serum samples.
+xenobiotic
+A xenobiotic (Greek, xenos "foreign"; bios "life") is a compound that is foreign to a living organism. Principal xenobiotics include: drugs, carcinogens and various compounds that have been introduced into the environment by artificial means.
+ryanodine receptor modulator 
+
+mutagen
+An agent that increases the frequency of mutations above the normal background level, usually by interacting directly with DNA and causing it damage, including base substitution.
+metabolite
+Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites.
+(via alkaloid )
+Application(s):	psychotropic drug
+A loosely defined grouping of drugs that have effects on psychological function.
+diuretic
+An agent that promotes the excretion of urine through its effects on kidney function.
+food additive
+Any substance which is added to food to preserve or enhance its flavour and/or appearance.
+adjuvant
+Any pharmacological or immunological agent that modifies the effect of other agents such as drugs or vaccines while having few if any direct effects when given by itself.
+central nervous system stimulant
+Any drug that enhances the activity of the central nervous system.
+</Output>
+
+ 

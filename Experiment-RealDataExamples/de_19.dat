@@ -1,0 +1,15 @@
+<module>
+<provider name = "EBI"/>
+<name>assembly_map</name> 
+<URI>https://rest.ensembl.org/documentation/info/assembly_map</URI>
+<Input name = "asm_one" semantics = "GeneAssembly">GRCh37</Input>
+<Input name = "asm_two" semantics = "GeneAssembly">GRCh38</Input>
+<Input name = "region" semantics = "Generegion">X:1000000..1000100:1
+X:1000000..1000100:-1
+X:1000000..1000100</Input>
+<Input name = "species" semantics = "Species">homo_sapiens</Input>
+<Output name = "result" semantics = "GenomicCoordinates"> 
+{"mappings":[{"original":{"coord_system":"chromosome","strand":1,"start":1000000,"seq_region_name":"X","end":1000100,"assembly":"GRCh37"},"mapped":{"start":1039265,"strand":1,"coord_system":"chromosome","assembly":"GRCh38","end":1039365,"seq_region_name":"X"}}]}
+</Output>
+
+ 

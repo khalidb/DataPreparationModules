@@ -1,0 +1,12 @@
+<module>
+<provider name = "DDBJ"/>
+<name>GetEntry</name> 
+<URI>http://getentry.ddbj.nig.ac.jp</URI>
+<Input name = "accession" semantics = "BiologicalSequence"> P17110 </Input>
+<Output name = "result" semantics = "GeneExpression"> 
+Significant GTEx eQTL(s):	NA eQTLs
+Significant Blood eQTL(s)-Cis:	No cis-eQTLs found in Blood tissue.Check at source
+Significant Blood eQTL(s)-Trans:	No trans-eQTLs found in Blood tissue.Check at source
+</Output>
+
+ 

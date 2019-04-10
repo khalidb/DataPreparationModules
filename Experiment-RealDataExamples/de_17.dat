@@ -1,0 +1,11 @@
+<module>
+<provider name = "EBI"/>
+<name>assembly_cdna</name> 
+<URI>https://rest.ensembl.org/documentation/info/assembly_cdna</URI>
+<Input name = "accession" semantics = "GeneID">ENST00000288602</Input>
+<Input name = "region" semantics = "GeneRegion">100..300</Input>
+<Output name = "result" semantics = "GenomicCoordinates"> 
+{"mappings":[{"start":140924566,"end":140924633,"assembly_name":"GRCh38","coord_system":"chromosome","rank":0,"gap":0,"strand":-1,"seq_region_name":"7"},{"gap":0,"seq_region_name":"7","strand":-1,"rank":0,"coord_system":"chromosome","assembly_name":"GRCh38","end":140850212,"start":140850111},{"start":140834842,"end":140834872,"strand":-1,"seq_region_name":"7","gap":0,"assembly_name":"GRCh38","rank":0,"coord_system":"chromosome"}]}
+</Output>
+
+ 

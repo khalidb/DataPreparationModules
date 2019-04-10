@@ -1,0 +1,46 @@
+<module>
+<provider name = "proteomeCentral"/>
+<name>ProteomeCentral</name> 
+<URI>http://proteomecentral.proteomexchange.org</URI>
+<Input name = "accession" semantics = "ProteomeExperimentAccession"> PXD011340 </Input>
+<Output name = "result" semantics = "ProteomeExperimentEntry">
+PXD011340
+DataSet Summary
+
+HostingRepository: MassIVE
+AnnounceDate: 2019-04-08
+AnnouncementXML: Submission_2019-04-08_09:37:07.xml
+DigitalObjectIdentifier:
+ReviewLevel: Peer-reviewed dataset
+DatasetOrigin: Original data
+RepositorySupport: Supported dataset by repository
+PrimarySubmitter: Adam Dowle
+Title: The mRNA-bound proteome of Leishmania mexicana is stage-regulated with distinct transcript target pools
+Description: Leishmania species parasite infections, termed the leishmaniases, cause significant global infectious disease burden. The lifecycle of the parasite embodies three main stages that require precise coordination of gene regulation to survive drastic environmental shifts transitioning from sandfly to mammalian hosts. Constitutive transcription in these kinetoplastid parasites is overwhelmingly reliant on post-transcriptional mechanisms, yet strikingly few Leishmania trans-regulator proteins are known. Utilizing optimised crosslinking and in-depth, quantified mass spectrometry, we present a comprehensive analysis of over 1,400 mRNA binding proteins (mRBPs) and whole cell proteomes from the three main lifecycle stages.
+SpeciesList: scientific name: Leishmania mexicana; NCBI TaxID: 5665;
+ModificationList: Carbamidomethyl; Oxidation
+Instrument: Orbitrap Fusion
+Dataset History
+
+Version	Datetime	Status	ChangeLog Entry
+0	2018-10-11 01:41:14	ID requested	
+1	2019-04-08 09:37:09	announced	
+Publication List
+
+De Pablos LM, Ferreira TR, Dowle A, Forrester S, Parry E, Newling K, Walrad PB, : novel genetic insight into an ancient parasite. Mol Cell Proteomics, ():(2019) [pubmed]
+Keyword List
+
+submitter keyword: mRNA-bound proteome, mRNA binding proteins, mRBPs, mRBPome, parasite lifecycle
+Contact List
+
+Dr. Pegine Walrad
+contact affiliation: University of York
+contact email: pegine.walrad@york.ac.uk
+lab head:
+Adam Dowle
+contact affiliation: University of York
+contact email: adam.dowle@york.ac.uk
+dataset submitter:
+</Output>
+
+ 

@@ -1,0 +1,24 @@
+<module>
+<provider name = "QuickGO"/>
+<name>GO2GeneProducts</name> 
+<URI>https://www.ebi.ac.uk/QuickGO</URI>
+<Input name = "accession" semantics = "GOTerm"> GO:0005576 </Input>
+<Output name = "result" semantics = "GeneTerm"> 
+A0A1L7NQ74 Putative galactose oxidase
+U5LRM3 Glycolate oxidase 3 annotations
+B5KUM7 Glycolate oxidase 9 annotations
+U5LRL5 Glycolate oxidase 3 annotations
+B5KUL2 Glycolate oxidase 9 annotations
+I1TEM0 Geissoschizine oxidase 11 annotations
+G5CBY8 Glycolate oxidase 4 annotations
+D7EZN6 Glycolate oxidase 4 annotations
+A0A0A1X0T3 Glycoprotein O
+P16750 Glycoprotein O 3 annotations
+U5LP68 Glycolate oxidase 3 annotations
+G5CBY7 Glycolate oxidase 4 annotations
+A0A2H4WCW8 Go-alpha 10 annotations
+URS0000843FAD_1673864 Trichoderma sp. WL-Go partial 26S ribosomal RNA
+Q5MAF4 Nucleocapsid
+</Output>
+
+ 

@@ -1,0 +1,21 @@
+<module>
+<provider name = "Kegg"/>
+<name>annotateSequence</name> 
+<URI>https://www.genome.jp/kegg/tool</URI>
+<Input name = "ID" semantics = "ProteinSequence">
+>sp|P17110|CH36_CERCA Chorion protein S36 OS=Ceratitis capitata OX=7213 GN=Cp36 PE=3 SV=1
+MNCFLFTLFFVAAPLATASYGSSSGGGGGGSSYLSSASSNGLDELVQAAAGGAQQAGGTI
+TPANAEIPVSPAEVARLNQVQAQLQALNSNPVYRNLKNSDAIAESLAESSLASKIRQGNI
+NIVAPNVIDQGVYRSLLVPSGQNNHQVIATQPLPPIIVNQPALPPTQIGGGPAAVVKAAP
+VIYKIKPSVIYQQEVINKVPTPLSLNPVYVKVYKPGKKIDAPLVPGVQQNYQAPSYGGSS
+YSAPAASYEPAPAPSYSAAPAQSYNAAPAPSYSAAPAASYGAAPSASYDAAPAASYGAES
+SYGSPQSSSSYGSAPPASGY
+</Input>
+<Input name = "family" semantics = species = "Hominidae">
+ </Input>
+<Output name = "result" semantics = "BiologicalEntry"> 
+Gene (Length)	Score	Ident	Overlap	KO	Definition
+hsa:11155 (727)	47.4	38	89	K19867	LDB3; LIM domain binding 3
+</Output>
+
+ 

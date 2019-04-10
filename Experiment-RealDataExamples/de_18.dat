@@ -1,0 +1,11 @@
+<module>
+<provider name = "EBI"/>
+<name>assembly_cds</name> 
+<URI>https://rest.ensembl.org/documentation/info/assembly_cdna</URI>
+<Input name = "accession" semantics = "GeneID">ENST00000288602</Input>
+<Input name = "region" semantics = "GeneRegion">1..1000</Input>
+<Output name = "result" semantics = "GenomicCoordinates"> 
+{"mappings":[{"seq_region_name":"7","coord_system":"chromosome","rank":0,"gap":0,"strand":-1,"start":140924566,"end":140924703,"assembly_name":"GRCh38"},{"strand":-1,"start":140850111,"end":140850212,"assembly_name":"GRCh38","rank":0,"gap":0,"coord_system":"chromosome","seq_region_name":"7"},{"seq_region_name":"7","coord_system":"chromosome","assembly_name":"GRCh38","end":140834872,"start":140834609,"strand":-1,"gap":0,"rank":0},{"seq_region_name":"7","coord_system":"chromosome","rank":0,"gap":0,"end":140808995,"assembly_name":"GRCh38","strand":-1,"start":140808892},{"gap":0,"rank":0,"start":140807960,"strand":-1,"assembly_name":"GRCh38","end":140808062,"seq_region_name":"7","coord_system":"chromosome"},{"coord_system":"chromosome","seq_region_name":"7","strand":-1,"start":140801412,"end":140801560,"assembly_name":"GRCh38","rank":0,"gap":0},{"coord_system":"chromosome","seq_region_name":"7","rank":0,"gap":0,"strand":-1,"start":140800362,"end":140800481,"assembly_name":"GRCh38"},{"start":140794448,"strand":-1,"assembly_name":"GRCh38","end":140794467,"gap":0,"rank":0,"coord_system":"chromosome","seq_region_name":"7"}]}
+</Output>
+
+ 
